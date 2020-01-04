@@ -1,0 +1,96 @@
+body{
+    font-family: 'Montserrat', sans-serif;}
+header{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #49599a;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+header ~ .title {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+.title.title-dark {
+    background-color:#7986cb;
+    color: white;
+    }
+.control-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d0d8ff;
+    justify-content: space-between;
+}
+.search, .add-block {
+    display: flex;
+    align-items: center;
+    background-color: #d0d8ff;
+}
+.control-block input {
+    height: 30px;
+}
+.control-block button {
+   
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.control-block button:hover{
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+}
+table{
+    border: black 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    background-color:#7986cb;
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+}
+thead tr{
+    height: 40px;
+}
+td{
+    text-align: center;
+}
+tbody tr{
+    height: 30px;
+    transition: all 0.5s;
+}
+tbody tr:nth-child(2n+1){
+    background-color:#aab6fe;
+}
+tbody td:nth-child(2){
+    background-color:#9fa8da;
+}
+tbody tr:nth-child(2n){
+    background-color:#d1d9ff;
+    color:black;
+}
+tbody tr:hover{
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+address > p, .executives > p{
+    margin: 0;
+    }
+.executives{
+width: 35%; 
+font-size: 70%; 
+margin: 10px 0 0 10px;
+}

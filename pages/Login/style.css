@@ -39,10 +39,6 @@ h1 {
   background-color: #0cc21c;
 }
 
-.login-button:disabled {
-  background-color: gray;
-}
-
 .input-container {
   margin: 7px;
 }
@@ -64,9 +60,9 @@ input.username {
 }
 input.password {
   background: url(image/4.png) no-repeat;
-    background-position: 10px 11px;
-    background-color: #ffffff;
-    background-size: 25px;
+  background-position: 7px 11px;
+  background-color: #ffffff;
+  background-size: 32px;
 }
 
 a {
